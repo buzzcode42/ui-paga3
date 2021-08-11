@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    padding: 1.4rem 3.2rem;
+    border-radius: 1rem;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border: 1px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.btn-cta {
+    border-color: $color-1;
+    color: $color-1;
+
+    &:hover {
+        background-color: $color-1;
+        color: $color-3;
+    }
+}
+
+.btn-black {
+    background-color: $color-1;
+    color: $color-3;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.btn-grey {
+    background-color: $color-4;
+
+    &:hover {
+        background-color: $color-5;
+    }
+}
