@@ -150,6 +150,7 @@ header .hero__image {
 
 header .hero__image img {
   width: 100%;
+  height: 38rem;
 }
 
 header .hero__image div {
